@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nexora - Empowering Your Future with Innovation. Professional services for IT, Design, and Digital Marketing.">
+    <meta name="keywords" content="Nexora, IT Consultation, Graphic Design, Digital Marketing, Business Solutions">
+    <meta name="author" content="Your Name">
+    <title>Nexora - Home</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstraps/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstraps/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Nexora Logo" width="120">
+                </a>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="todos.html">Todos</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Banner Section -->
+        <section id="hero-banner">
+            <div class="container">
+                <div class="banner-content">
+                    <h1>Empowering Your Future with Innovation</h1>
+                    <p>We provide innovative solutions to help your business grow efficiently.</p>
+                    <button id="order-now" class="btn-secondary">Order Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pop-up Content -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <h2>Our Services</h2>
+                <table class="service-table">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fas fa-laptop-code"></i> IT Consultation</td>
+                            <td>Technology solutions tailored for your business needs.</td>
+                            <td>$500</td>
+                            <td>1 Month</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-palette"></i> Graphic Design</td>
+                            <td>Professional and creative visual designs.</td>
+                            <td>$300</td>
+                            <td>2 Weeks</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-chart-line"></i> Digital Marketing</td>
+                            <td>Effective online marketing strategies.</td>
+                            <td>$400</td>
+                            <td>3 Weeks</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button id="close-popup">Close</button>
+            </div>
+        </div>
+
+        <!-- Overlay -->
+        <div id="overlay" class="overlay"></div>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-cards">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>IT Consultation</h3>
+                        </div>
+                        <hr class="divider">
+                        <p>Technology solutions tailored for your business needs.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-palette"></i>
+                            <h3>Graphic Design</h3>
+                        </div>
+                        <hr class="divider">
+                        <p>Professional and creative visual designs.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Digital Marketing</h3>
+                        </div>
+                        <hr class="divider">
+                        <p>Effective online marketing strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial-carousel">
+                    <div class="carousel-wrapper">
+                        <div class="testimonial-cards">
+                            <div class="card">
+                                <p>"Nexora transformed our business with their innovative IT solutions!"</p>
+                                <div class="client-info">
+                                    <img src="assets/images/clients1.jpg" alt="Client 1">
+                                    <span>John Doe, CEO of TechCorp</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <p>"Their design team is exceptional. Highly recommend!"</p>
+                                <div class="client-info">
+                                    <img src="assets/images/clients2.jpg" alt="Client 2">
+                                    <span>Jane Smith, Marketing Manager</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <p>"Digital marketing strategies that truly deliver results."</p>
+                                <div class="client-info">
+                                    <img src="assets/images/clients3.jpg" alt="Client 3">
+                                    <span>Emily Johnson, Founder of BrandX</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <p>"Professional and reliable services. Great experience!"</p>
+                                <div class="client-info">
+                                    <img src="assets/images/clients4.jpg" alt="Client 4">
+                                    <span>Michael Brown, CFO of Innovatech</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <p>"The best IT consultation service I've ever worked with."</p>
+                                <div class="client-info">
+                                    <img src="assets/images/clients5.jpg" alt="Client 5">
+                                    <span>Sarah Lee, CTO of FutureTech</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <p>"Creative designs that perfectly match our brand identity."</p>
+                                <div class="client-info">
+                                    <img src="assets/images/clients6.jpg" alt="Client 6">
+                                    <span>David Wilson, Creative Director</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container">
+            <!-- Footer Content -->
+            <div class="footer-columns">
+                <!-- Left Column -->
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <p>We are a leading IT solutions provider dedicated to helping businesses grow through innovative
+                        technology.</p>
+                    <h4>Photo Stream</h4>
+                    <div class="photo-stream">
+                        <img src="assets/images/photo1.jpg" alt="Photo 1">
+                        <img src="assets/images/photo2.jpg" alt="Photo 2">
+                        <img src="assets/images/photo3.jpg" alt="Photo 3">
+                        <img src="assets/images/photo4.jpg" alt="Photo 4">
+                    </div>
+                </div>
+
+                <!-- Middle Column -->
+                <div class="footer-column">
+                    <h4>Latest Tweets</h4>
+                    <div class="tweet">
+                        <p><i class="fab fa-twitter"></i> Just launched our new website! Check it out: <a
+                                href="#">#Nexora</a></p>
+                        <span>2 days ago</span>
+                    </div>
+                    <div class="tweet">
+                        <p><i class="fab fa-twitter"></i> Excited to announce our partnership with Innovatech! <a
+                                href="#">#Partnership</a></p>
+                        <span>5 days ago</span>
+                    </div>
+                    <h4>Social Connecting</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Innovation City</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@nexora.com</p>
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright Notice -->
+            <div class="copyright">
+                <p>&copy; 2023 Nexora. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

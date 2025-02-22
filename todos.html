@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Todos - Manage your tasks with ease.">
+    <meta name="keywords" content="todos, task manager, nexora">
+    <meta name="author" content="Nexora">
+    <title>Todos - Nexora</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/todos.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstraps/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstraps/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Nexora Logo" width="120">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="todos.html">Todos</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section id="hero-todos">
+        <div class="hero-content">
+            <h1>Manage Your Tasks</h1>
+            <p>Stay organized and productive with our simple task manager.</p>
+        </div>
+    </section>
+
+    <!-- Todos Section -->
+    <section id="todos-section">
+        <div class="container">
+            <div class="todo-container">
+                <!-- Message -->
+                <div id="message" class="message"></div>
+
+                <!-- Input Form -->
+                <div class="todo-input">
+                    <input type="text" id="todo-input" placeholder="Add a new task..." />
+                    <button id="add-todo">Add Task</button>
+                </div>
+
+                <!-- Todo List -->
+                <div class="todo-list">
+                    <ul id="todo-list"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <p>We are a leading IT solutions provider dedicated to helping businesses grow through innovative
+                        technology.</p>
+                    <h4>Photo Stream</h4>
+                    <div class="photo-stream">
+                        <img src="assets/images/photo1.jpg" alt="Photo 1">
+                        <img src="assets/images/photo2.jpg" alt="Photo 2">
+                        <img src="assets/images/photo3.jpg" alt="Photo 3">
+                        <img src="assets/images/photo4.jpg" alt="Photo 4">
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Latest Tweets</h4>
+                    <div class="tweet">
+                        <p><i class="fab fa-twitter"></i> Just launched our new website! Check it out: <a
+                                href="#">#Nexora</a></p>
+                        <span>2 days ago</span>
+                    </div>
+                    <div class="tweet">
+                        <p><i class="fab fa-twitter"></i> Excited to announce our partnership with Innovatech! <a
+                                href="#">#Partnership</a></p>
+                        <span>5 days ago</span>
+                    </div>
+                    <h4>Social Connecting</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Innovation City</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@nexora.com</p>
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Nexora. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

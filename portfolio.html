@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our portfolio of innovative IT solutions and creative designs.">
+    <meta name="keywords" content="IT solutions, portfolio, projects, Nexora">
+    <meta name="author" content="Nexora">
+    <title>Portfolio - Nexora</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstraps/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstraps/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Nexora Logo" width="120">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="todos.html">Todos</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section id="hero-portfolio">
+        <div class="hero-content">
+            <h1>Our Portfolio</h1>
+            <p>Discover the innovative projects we've delivered for our clients across various industries.</p>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="featured-projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="assets/images/project1.jpg" alt="E-Commerce Platform">
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>We developed a scalable e-commerce platform with advanced features for seamless user
+                            experience.</p>
+                        <button class="btn view-details" data-modal="modal1">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Modal for Project 1 -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>E-Commerce Platform</h2>
+                        <p><strong>Description:</strong> A fully functional e-commerce platform built using modern
+                            technologies like React, Node.js, and MongoDB. It includes features like user
+                            authentication, product search, and payment integration.</p>
+                        <p><strong>Technologies Used:</strong> React, Node.js, MongoDB, Stripe</p>
+                        <p><strong>Live Demo:</strong> <a href="https://example.com" target="_blank">Visit Website</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="assets/images/project2.png" alt="Fitness Tracker App">
+                    <div class="project-info">
+                        <h3>Fitness Tracker App</h3>
+                        <p>A cross-platform mobile app designed for fitness enthusiasts to track their progress.</p>
+                        <button class="btn view-details" data-modal="modal2">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Modal for Project 2 -->
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Fitness Tracker App</h2>
+                        <p><strong>Description:</strong> A mobile app that helps users track their daily workouts,
+                            calorie intake, and health metrics. Built using Flutter for cross-platform compatibility.
+                        </p>
+                        <p><strong>Technologies Used:</strong> Flutter, Firebase, Google Fit API</p>
+                        <p><strong>Live Demo:</strong> <a href="https://example.com" target="_blank">Visit Website</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="assets/images/project3.png" alt="Corporate Branding">
+                    <div class="project-info">
+                        <h3>Corporate Branding</h3>
+                        <p>A modern redesign of a corporate website to improve branding and user engagement.</p>
+                        <button class="btn view-details" data-modal="modal3">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Modal for Project 3 -->
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Corporate Branding</h2>
+                        <p><strong>Description:</strong> A complete rebranding project for a corporate client, including
+                            logo design, website redesign, and marketing materials.</p>
+                        <p><strong>Technologies Used:</strong> Adobe Illustrator, Photoshop, WordPress</p>
+                        <p><strong>Live Demo:</strong> <a href="https://example.com" target="_blank">Visit Website</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <img src="assets/images/project4.png" alt="Sales Analytics Dashboard">
+                    <div class="project-info">
+                        <h3>Sales Analytics Dashboard</h3>
+                        <p>A custom dashboard for real-time data analysis and visualization.</p>
+                        <button class="btn view-details" data-modal="modal4">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Modal for Project 4 -->
+                <div id="modal4" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Sales Analytics Dashboard</h2>
+                        <p><strong>Description:</strong> A dashboard that provides real-time insights into sales
+                            performance, customer behavior, and revenue trends.</p>
+                        <p><strong>Technologies Used:</strong> Python, Tableau, SQL</p>
+                        <p><strong>Live Demo:</strong> <a href="https://example.com" target="_blank">Visit Website</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Categories -->
+    <section id="project-categories">
+        <div class="container">
+            <h2>Project Categories</h2>
+            <ul id="filters" class="clearfix">
+                <li><span class="filter active" data-filter="all">All</span></li>
+                <li><span class="filter" data-filter="web-development">Web Development</span></li>
+                <li><span class="filter" data-filter="mobile-apps">Mobile Apps</span></li>
+                <li><span class="filter" data-filter="graphic-design">Graphic Design</span></li>
+                <li><span class="filter" data-filter="data-analysis">Data Analysis</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Project Gallery -->
+    <section id="project-gallery">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web-development">
+                    <img src="assets/images/project1.jpg" alt="E-Commerce Platform">
+                    <div class="project-info">
+                        <p><strong>Project:</strong> E-Commerce Platform</p>
+                        <p><strong>Date:</strong> 2023-01-15</p>
+                        <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐ (5/5)</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="mobile-apps">
+                    <img src="assets/images/fitnes.png" alt="Fitness Tracker App">
+                    <div class="project-info">
+                        <p><strong>Project:</strong> Fitness Tracker App</p>
+                        <p><strong>Date:</strong> 2023-02-20</p>
+                        <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4/5)</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="graphic-design">
+                    <img src="assets/images/corpo.jpg" alt="Corporate Branding">
+                    <div class="project-info">
+                        <p><strong>Project:</strong> Corporate Branding</p>
+                        <p><strong>Date:</strong> 2023-03-10</p>
+                        <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐ (5/5)</p>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="data-analysis">
+                    <img src="assets/images/sales.png" alt="Sales Analytics Dashboard">
+                    <div class="project-info">
+                        <p><strong>Project:</strong> Sales Analytics Dashboard</p>
+                        <p><strong>Date:</strong> 2023-04-05</p>
+                        <p><strong>Rating:</strong> ⭐⭐⭐ (3/5)</p>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="web-development">
+                    <img src="assets/images/learn.png" alt="Online Learning Platform">
+                    <div class="project-info">
+                        <p><strong>Project:</strong> Online Learning Platform</p>
+                        <p><strong>Date:</strong> 2023-05-12</p>
+                        <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4/5)</p>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-category="mobile-apps">
+                    <img src="assets/images/food.png" alt="Food Delivery App">
+                    <div class="project-info">
+                        <p><strong>Project:</strong> Food Delivery App</p>
+                        <p><strong>Date:</strong> 2023-06-18</p>
+                        <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐ (5/5)</p>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card" data-category="graphic-design">
+                    <img src="assets/images/sosmed.png" alt="Social Media Campaign">
+                    <div class="project-info">
+                        <p><strong>Project:</strong> Social Media Campaign</p>
+                        <p><strong>Date:</strong> 2023-07-22</p>
+                        <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4/5)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="cta">
+        <div class="container">
+            <h2>Ready to Start Your Next Project?</h2>
+            <p>Let us help you bring your ideas to life with our expertise and creativity.</p>
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <p>We are a leading IT solutions provider dedicated to helping businesses grow through innovative
+                        technology.</p>
+                    <h4>Photo Stream</h4>
+                    <div class="photo-stream">
+                        <img src="assets/images/photo1.jpg" alt="Photo 1">
+                        <img src="assets/images/photo2.jpg" alt="Photo 2">
+                        <img src="assets/images/photo3.jpg" alt="Photo 3">
+                        <img src="assets/images/photo4.jpg" alt="Photo 4">
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Latest Tweets</h4>
+                    <div class="tweet">
+                        <p><i class="fab fa-twitter"></i> Just launched our new website! Check it out: <a
+                                href="#">#Nexora</a></p>
+                        <span>2 days ago</span>
+                    </div>
+                    <div class="tweet">
+                        <p><i class="fab fa-twitter"></i> Excited to announce our partnership with Innovatech! <a
+                                href="#">#Partnership</a></p>
+                        <span>5 days ago</span>
+                    </div>
+                    <h4>Social Connecting</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Innovation City</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@nexora.com</p>
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Nexora. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const filters = document.querySelectorAll('#filters .filter');
+            const projects = document.querySelectorAll('.project-card');
+
+            // Add click event to filters
+            filters.forEach(filter => {
+                filter.addEventListener('click', () => {
+                    // Remove 'active' class from all filters
+                    filters.forEach(f => f.classList.remove('active'));
+                    // Add 'active' class to the clicked filter
+                    filter.classList.add('active');
+
+                    const category = filter.getAttribute('data-filter');
+
+                    // Filter projects based on category
+                    projects.forEach(project => {
+                        if (category === 'all' || project.getAttribute('data-category') === category) {
+                            project.style.display = 'block';
+                        } else {
+                            project.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all buttons with the class 'view-details'
+            const viewDetailsButtons = document.querySelectorAll('.view-details');
+
+            // Add click event to each button
+            viewDetailsButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const modalId = button.getAttribute('data-modal'); // Get the modal ID
+                    const modal = document.getElementById(modalId); // Find the corresponding modal
+                    if (modal) {
+                        modal.style.display = 'block'; // Show the modal
+                    }
+                });
+            });
+
+            // Close modal when clicking the close button or outside the modal
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                const closeButton = modal.querySelector('.close');
+                closeButton.addEventListener('click', () => {
+                    modal.style.display = 'none'; // Hide the modal
+                });
+
+                // Close modal when clicking outside the modal content
+                modal.addEventListener('click', (event) => {
+                    if (event.target === modal) {
+                        modal.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
